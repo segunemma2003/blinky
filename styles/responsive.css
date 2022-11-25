@@ -1,0 +1,90 @@
+@media only screen and (max-width: 600px) {
+ 
+    .first-{
+        padding:0;
+    }
+    .h1t{
+        text-align:center;
+        font-size: 32px;
+    }
+    .jumbot{
+        margin:1px;
+    }
+    .j-input{
+        width: 20.375rem;
+height: 33.68px;
+font-size: 12px;
+align-items: center;
+    }
+    .sma{
+        font-size: 12px;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .k select{
+        width: 171.44px;
+    }
+    .k button{
+        width: 100%;
+    }
+    .table-l{
+        margin:0;
+        margin-top:1px;
+        background-color: #EFEFEF;
+    }
+    .tbb{
+        background: #FFFFFF;
+        width:-webkit-fill-available;
+    }
+    .thes{
+        display:none;
+    }
+    .txt{
+        font-size: 9.47785px;
+    }
+    .myd h5{
+        color: #7749F8;
+        font-size: 18px;
+    }
+    .do{
+        margin-top:-20px;
+
+    }
+    .xbs{
+        background-color:#FFFFFF;
+    }
+    .tbys{
+        font-size:12px;
+    }
+    .b-t{
+        width:100%;
+        background-color:#FFFFFF;
+    }
+    .tkkp{
+        padding:1px;
+    }
+    .b-t-p{
+        border-left: none;
+        background-color:#FFFFFF;
+    }
+    .wrapper{
+        width:210px;
+        font-size: 10.8219px;
+    }
+    .px{
+    margin-left:20px;
+    }
+    .auth-form{
+        width:220px;
+        padding-left:0px;
+        padding-top:10px;
+        font-size: 12px;
+    }
+    .kdr{
+        font-size: 13px;
+        width: 350.38px;
+height: 207px;
+
+    }
+}

@@ -5,7 +5,11 @@ body {
   margin: 0;
   /* font-size:62.5% !important; */
 }
-
+.custom-nv-i{
+  padding-right:10px;
+  padding-top:3.9px;
+  
+}
 
 * {
   box-sizing: border-box;
@@ -15,6 +19,8 @@ body {
 .custom-nav{
   background: #FFFFFF;
   padding:24px;
+  /* overflow: hidden;  */
+
 }
 
 .bran{
@@ -26,7 +32,7 @@ body {
   font-size: 24px !important;
   /* identical to box height */
 
-  margin-right:221px;
+  /* margin-right:221px; */
   /* Twitcast purple */
 
   color: #7749F8 !important;
@@ -55,9 +61,9 @@ justify-content: flex-end;
 align-items: center;
 padding: 0px;
 gap: 12px;
-
+/* 
 width: 190.37px;
-height: 34px;
+height: 34px; */
 
 
 /* Inside auto layout */
@@ -95,10 +101,12 @@ flex-grow: 0;
   font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 2.5rem;
 margin-top:10px;
 color: #191635;
 }
+
+
 .j-input{
   width: 502px;
 height: 50px;
@@ -112,6 +120,9 @@ border-radius: 25px;
 .imagebox{
   width:300px;
   height:250px;
+}
+.ste{
+  
 }
 .sma{
   font-family: 'Inter';
@@ -156,7 +167,7 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
-
+border: none;
 /* identical to box height */
 
 text-align: center;
@@ -173,12 +184,12 @@ color: #FFFFFF;
   display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 30px 35px;
+padding: 35px 35px;
 gap: 10px;
 margin:20px;
 padding:12px;
 width: -webkit-fill-available;
-height: 100%;
+/* height: 100%; */
 
 background: #FFFFFF;
 border-radius: 14px;
@@ -329,7 +340,7 @@ flex-grow: 0;
 font-style: normal;
 font-weight: 500;
 font-size: 13px;
-line-height: 16px;
+/* line-height: 16px; */
 /* identical to box height */
 
 
@@ -339,7 +350,7 @@ color: #737B7B;
 }
 .do{
   width:-webkit-fill-available;
-  height:100%;
+  /* height:100%; */
   background: #FFFFFF;
   align-items: center;
   justify-content:center;
@@ -438,6 +449,7 @@ gap: 12px;
 .b-t{
   border-top: 1px solid #CDCFD4;
   padding-top:20px;
+  width:-webkit-fill-available;
 }
 .b-t-p{
   border-left:1px solid #CDCFD4;
@@ -716,4 +728,150 @@ color: #9AA0A8;
 .ggg{
   background: #FAFAFA;
 border-radius: 8px;
+}
+
+.auth{
+  background: #FFFFFF;
+  width:-webkit-fill-available;
+  height:-webkit-fill-available;
+  /* padding-bottom: 100px; */
+  padding:50px;
+}
+.auth-t{
+  background: linear-gradient(135deg, #43CBFF 0%, #7749F8 60.58%);
+  padding-left:50px;
+  padding-top: 101px;
+  padding-bottom:240px;
+  border-radius: 15px 0px 0px 15px;
+}
+.auth-t h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+/* Twitcast purple */
+
+color: #7749F8;
+padding-bottom: 85.14px;
+
+}
+.auth-text{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+}
+
+.auth-form{
+  padding-top:101px;
+  padding-left:95px;
+  
+}
+.auth-form h5{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #757575;
+}
+.auth-form h4{
+
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #333333;
+}
+
+.auth-form label{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+
+.auth-form input::text{
+  background: #F8F8F8;
+border: 1px solid #D8D8D8;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 21px;
+/* or 175% */
+
+display: flex;
+align-items: center;
+
+color: #757575;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.bn-auth{
+  background: #7749F8;
+  color: #FFFFFF;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+}
+.neuser{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+padding-top: -20px;
+color: #333333;
+
+}
+
+.ppppuser{
+margin-top:-20px;
 }

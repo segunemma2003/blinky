@@ -23,13 +23,13 @@ class EditAutograph extends Component{
         return (
         <>
             <div className="table-l tkkp">
-                <div className="d-flex  myd">
-                    <h5 className="me-auto">Edit Autograph</h5>
+                <div className="d-flex  myd mt-2">
+                    <h5 className="me-auto ">Edit Autograph</h5>
                     <div className="d-flex">
-                        <button className="  delete-">Cancel</button>
+                        <button className="d-none d-lg-block  delete-">Cancel</button>
                     </div>
                 </div>
-                <div className="d-flex flex-column ">
+                <div className="d-flex flex-column d-none d-lg-flex mt-4 ">
                     <div className="d-flex flex-row cuu gap-4">
                         <a href="#"        className="nav-link nt">Styles</a>
                         <a href="#" className="nav-link">Transcript</a>
@@ -37,9 +37,61 @@ class EditAutograph extends Component{
                     </div>
                     
                 </div>
-               <div className="do b-t">
-                <div className="row ">
-                    <div className="col-6 ">
+               <div className="do b-t mt-4">
+                <div className="row flex-row-reverse ">
+                <div className="col-lg-6 col-md-12 col-sm-12 b-t-p gap-3">
+                  
+                  <Image
+                      src={card1}
+                      layout="responsive"
+                      width="447.58"
+                      height="447.58"
+                  />
+                    <br /><br />
+                  <div class="d-flex flex-row gap-2 text-center align-items-center justify-content-center">
+                      <Image
+                          src={play}
+                          layout="fixed"
+                          width="30"
+                          height="30"
+                         />
+                          <div>
+                           <Image
+                          src={controls}
+                          layout="fixed"
+                          width="200"
+                          height="7"
+                          />
+                          </div>
+                          <div className="d-flex align-items-center gap-4">
+                              <p className="sse">00:00</p>
+                        <div className="sound">
+                        <Image
+                          src={speaker}
+                          layout="fixed"
+                          width="25.06"
+                          height="18.8"
+                          />
+                        </div>
+                          
+                            </div>
+                          
+                  </div>
+                  <div className="d-none d-lg-flex gap-3 align-items-center justify-content-center mt-4">
+                      <button className="btt">Save Changes</button>
+                      <button className="btz">Download</button>
+                      <button className="btz"> Share</button>
+                  </div>
+              </div>
+                    <div className="col-lg-6 col-md-12 col-sm-12 p-4 ">
+                    <div className="d-flex flex-column d-lg-none mt-4 mb-3 px-4">
+                            <div className="d-flex flex-row  gap-4">
+                                <a href="#"        className="nav-link nt">Styles</a>
+                                <a href="#" className="nav-link">Transcript</a>
+                                <a href="#" className="nav-link ">Templates</a>
+                            </div>
+                            
+                        </div>
                         <form class="d-flex flex-column gap-3">
                             <div className="row">
                                 <div class="col-8">
@@ -108,7 +160,7 @@ class EditAutograph extends Component{
                                 </div>
                             </div>
                             <div className="row">
-                                <div class="col-8">
+                                <div class="col-9">
                                     <div className="d-flex flex-column gap-2">
                                         <label className="control-label">Background</label>
                                         <div className="row">
@@ -136,50 +188,7 @@ class EditAutograph extends Component{
                             </div>
                         </form>
                     </div>
-                    <div className="col-6 b-t-p gap-3">
-                  
-                        <Image
-                            src={card1}
-                            layout="responsive"
-                            width="447.58"
-                            height="447.58"
-                        />
-                          <br /><br />
-                        <div class="d-flex flex-row ">
-                            <Image
-                                src={play}
-                                layout="fixed"
-                                width="30"
-                                height="30"
-                                />
-                                <div>
-                                 <Image
-                                src={controls}
-                                layout="fixed"
-                                width="310"
-                                height="7"
-                                />
-                                </div>
-                                <div className="d-flex align-items-center gap-4">
-                                    <p className="sse">00:00</p>
-                              <div className="sound">
-                              <Image
-                                src={speaker}
-                                layout="fixed"
-                                width="25.06"
-                                height="18.8"
-                                />
-                              </div>
-                                
-                                  </div>
-                                
-                        </div>
-                        <div className="d-flex gap-3 align-items-center justify-content-center mt-4">
-                            <button className="btt">Save Changes</button>
-                            <button className="btz">Download</button>
-                            <button className="btz"> Share</button>
-                        </div>
-                    </div>
+                    
                 </div>
                   
                </div>

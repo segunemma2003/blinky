@@ -1,6 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
+import '../styles/responsive.css'
 import Layout from '../components/layouts';
 import {useRouter} from 'next/router';
 import Head from "next/head";

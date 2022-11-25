@@ -22,45 +22,52 @@ class Dashboard3 extends Component{
     render(){
         return (
         <>
-            <div className="jumbot">
-                 <div className="row">
-                    <div className="col-7">
+            <div className="jumbot d-none d-lg-flex">
+                 <div className="row flex-row-reverse">
+                 <div className="col-lg-5 col-md-12">
+                    <div className="ste py-4 px-4">
+                    <Image
+                            src={image1} 
+                            alt="s"
+                            layout="fixed"
+                            width="300"
+                            height="255"
+                            />
+                    </div>
+                        
+                    </div>
+                    <div className="col-lg-7 col-md-12">
                         <div className="d-flex flex-column gap-2 g-2 first-">
                             <h1 className="h1t">
-                                Convert your twitter threads <br/> or spaces into a podcast
+                                Convert your twitter threads <br className="d-none d-lg-flex"/> or spaces into a podcast
                             </h1>
                             <input placeholder="Paste Twitter thread or recorded space’s link...."  className="j-input"/>
                             <small className="sma"><u>Use custom text</u></small>
-                            <div className="d-flex flex-row gap-2 align-items-center k">
-                                <select>
-                                   <option>Select Voice</option> 
-                                </select>
-                                <select>
-                                   <option>Select Language</option> 
-                                </select>
+                            <div className="d-flex flex-column flex-lg-row gap-2 align-items-center k">
+                                <div className="d-flex flex-row gap-2 gap-lg-4 p-sm-4">
+                                    <select>
+                                        <option>Select Voice</option> 
+                                    </select>
+                                    <select>
+                                        <option>Select Language</option> 
+                                    </select>
+                                </div>
+                                
                                 <button>Generate</button>
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
-                        <Image
-                            src={image1}
-                            alt="s"
-                            layout="responsive"
-                            width="50"
-                            height="50"
-                            />
-                    </div>
+                    
                  </div>
             </div>
             <div className="table-l">
                 <div className="d-flex  myd">
                     <h5 className="me-auto">Recent Projects</h5>
                     <div className="d-flex">
-                        <button className="  delete-">Delete</button>
+                        <button className=" d-none d-lg-block delete-">Delete</button>
                     </div>
                 </div>
-                <div className="d-flex flex-column">
+                <div className="d-flex d-none d-lg-flex flex-column">
                     <div className="d-flex flex-row cuu gap-4">
                         <a href="#"        className="nav-link">All projects</a>
                         <a href="#" className="nav-link">Podcast</a>
@@ -69,10 +76,10 @@ class Dashboard3 extends Component{
                     
                 </div>
                <div className="do">
-                    <div className="row">
+                    <div className="row pt-4">
                         {
                             [1,2,3,4,2,4,1,3].map((item, index)=>(
-                            <div className="col-3 mb-4 tkyi">
+                            <div className="col-6 mb-4 tkyi">
                                 <div className="card ty pb-2">
                                     <div className="card-body">
                                         <Image
@@ -91,18 +98,7 @@ class Dashboard3 extends Component{
                             </div>
                             ))
                         }
-                        <div className="col-4">
-
-                        </div>
-                        <div className="col-4">
-                            
-                        </div>
-                        <div className="col-4">
-                            
-                        </div>
-                        <div className="col-4">
-                            
-                        </div>
+                       
                     </div>
                </div>
             </div>

@@ -1,7 +1,6 @@
 import AdminSideBar from "./adminsidebar";
 import Navbar from "./navs";
 import SideBar from "./sidebar";
-import Sidebar from "./sidebar";
 
 
 
@@ -12,7 +11,7 @@ export default function AdminLayout({ children }) {
             <Navbar />
             <div className="">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-2  d-none d-lg-flex">
                         <AdminSideBar />
                     </div>
                     <div className="col-10">
