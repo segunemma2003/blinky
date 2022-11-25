@@ -31,9 +31,9 @@ class EditAutograph extends Component{
                 </div>
                 <div className="d-flex flex-column d-none d-lg-flex mt-4 ">
                     <div className="d-flex flex-row cuu gap-4">
-                        <a href="#"        className="nav-link nt">Styles</a>
-                        <a href="#" className="nav-link">Transcript</a>
-                        <a href="#" className="nav-link ">Templates</a>
+                    <a href="/edit-autograph"        className="nav-link nt">Styles</a>
+                        <a href="/edit-autograph2" className="nav-link ">Transcript</a>
+                        <a href="/edit-autograph3" className="nav-link">Templates</a>
                     </div>
                     
                 </div>
@@ -86,9 +86,9 @@ class EditAutograph extends Component{
                     <div className="col-lg-6 col-md-12 col-sm-12 p-4 ">
                     <div className="d-flex flex-column d-lg-none mt-4 mb-3 px-4">
                             <div className="d-flex flex-row  gap-4">
-                                <a href="#"        className="nav-link nt">Styles</a>
-                                <a href="#" className="nav-link">Transcript</a>
-                                <a href="#" className="nav-link ">Templates</a>
+                            <a href="/edit-autograph"        className="nav-link">Styles</a>
+                        <a href="/edit-autograph2" className="nav-link nt">Transcript</a>
+                        <a href="/edit-autograph3" className="nav-link">Templates</a>
                             </div>
                             
                         </div>

@@ -31,9 +31,9 @@ class EditAutograph3 extends Component{
                 </div>
                 <div className="d-flex flex-column ">
                     <div className="d-flex flex-row cuu gap-4">
-                        <a href="#"        className="nav-link">Styles</a>
-                        <a href="#" className="nav-link">Transcript</a>
-                        <a href="#" className="nav-link nt">Templates</a>
+                    <a href="/edit-autograph"        className="nav-link">Styles</a>
+                        <a href="/edit-autograph2" className="nav-link ">Transcript</a>
+                        <a href="/edit-autograph3" className="nav-link nt">Templates</a>
                     </div>
                     
                 </div>

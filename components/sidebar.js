@@ -11,7 +11,7 @@ function SideBar(props){
         <div className="navst p-1">
             <ul className="nav flex-column gap-2">
                 <li className="nav-item item-active">
-                   <a className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
+                   <a href="/dashboard" className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
                    <Image
                         src={dashboard}
                         width={19}
@@ -25,7 +25,7 @@ function SideBar(props){
                 </li>
                 <li><hr /></li>
                 <li className="nav-item text-nowrap">
-                   <a className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
+                   <a href="/edit-autograph2" className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
                    <Image
                         src={addspeaker}
                         width={19}
@@ -38,7 +38,7 @@ function SideBar(props){
 
                 </li>
                 <li className="nav-item">
-                   <a className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
+                   <a href="create-podcast" className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
                    <Image
                         src={navspeaker}
                         width={19}
@@ -51,7 +51,7 @@ function SideBar(props){
 
                 </li>
                 <li className="nav-item text-nowrap">
-                   <a className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
+                   <a href="/create-autograph" className="nav-link d-flex align-items-center flex-row gap-2 tnav"> 
                    <Image
                         src={navwave}
                         width={19}
@@ -84,7 +84,7 @@ function SideBar(props){
                     <p className="teslast">mrprime@gmail.com</p>
                 </div>
                 <li className="nav-item">
-                   <a className="nav-link d-flex align-items-center  tnav"> 
+                   <a href="account-settings" className="nav-link d-flex align-items-center  tnav"> 
                 
                         Settings
                     </a>
